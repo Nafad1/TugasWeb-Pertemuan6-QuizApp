@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Interactive Quiz</h1>
+        
+        <div class="quiz-content">
+            <div id="progress">Soal 1/5</div>
+            <div id="question" class="question-text"></div>
+            <div id="options" class="options-grid"></div>
+            <button id="nextBtn" class="hidden">Next →</button>
+        </div>
+
+        <div id="result" class="hidden">
+            <h2>Skor: <span id="score"></span></h2>
+            <p>High Score: <span id="highScore"></span></p>
+            <button id="restartBtn">Ulangi Quiz</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
